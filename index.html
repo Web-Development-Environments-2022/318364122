@@ -1,193 +1,192 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div id="menu">
-<a href="#about">About Me</a>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Allura"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aref Ruqaa"
+      rel="stylesheet"
+    />
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+    <!-- using emojione library for emojipicker, source:https://github.com/mervick/emojionearea -->
+    <link rel="stylesheet" href="emojiPicker/emojionearea.min.css" />
+    <script
+      type="text/javascript"
+      src="emojiPicker/emojionearea.min.js"
+    ></script>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v13.0"
+      nonce="n0q3atT6"
+    ></script>
+    <div id="menu">
+      <div class="nav-left">
+        <li class="logo">RIKA</li>
+      </div>
+      <div class="nav-right">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#photos">My Photos</a></li>
+        <li><a href="#playlist">My Playlist</a></li>
+        <li><a href="#like">Like</a></li>
+        <li><a href="#qrcoder">QR code</a></li>
+        <li><a href="#spa">Q&A</a></li>
+        <li><a class="last" href="#contact">Contact Me</a></li>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+    <img class="centerImg" src="images/heart.jpeg" width="600" height="400" />
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="about" class="section">
+      <br />
+      <h1>About Me</h1>
+      <p>Rozina "Rika" Blenkitny, Born in 1936 in Romania and came to Israel in 1950.</p>
+      <p>Rika has a loving family of 2 children, 6 grandchildren and 4 great grandchildren.</p>
+      <p>Besides being with her family, Rika likes to have coffee in town with friends, watch telenovelas and play bridge and rummikub.</p>
+    </section>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="photos" class="section">
+      <br />
+      <h1>My Photos</h1>
+      <div class="imgGrid">
+        <figure class="gallery__item gallery__item--1">
+          <img src="images/birthday.jpg" class="gallery__img" alt="birthday" />
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+          <img src="images/eyal.jpeg" class="gallery__img" alt="with Eyal" />
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+          <img
+            src="images/friends.jpeg"
+            class="gallery__img"
+            alt="with friends"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+          <img
+            src="images/with_dory.jpg"
+            class="gallery__img"
+            alt="with Dory"
+          />
+        </figure>
+      </div>
+    </section>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="playlist" class="section">
+      <br />
+      <h1>My Playlist</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ZwTbFd8kdII"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="like" class="section">
+      <br />
+      <h1>Give Me a Like</h1>
+      <div
+        class="fb-like"
+        data-href="https://web-development-environments-2022.github.io/318364122/"
+        data-width=""
+        data-layout="standard"
+        data-action="like"
+        data-size="small"
+        data-share="false"
+      ></div>
+    </section>
 
+    <section id="qrcoder" class="section">
+      <br />
+      <h1>Scan My Code</h1>
+      <img id="qr" src="images/qr.png" width="500" height="400" />
+    </section>
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
-</body>
+    <section id="spa" class="section">
+      <br />
+      <h1>ANS</h1>
+      <div class="ans">
+        <p>1. Three main differences between web 1.0, web 2.0 and web 3.0:</p>
+        <pre>
+a. Web 1.0 targets on content creativity of producer, web 2.0 targets on content creativity of users and producers while web 3.0 targets on linked data sets.</pre
+        >
+        <pre>
+b. Web 1.0 is a “read-only” web with very little interaction where consumer can exchange the information together, but it is not possible to interact with the website while Web 2.0 is a “read-write” web. Web 2.0 allows managing and assembling large global crowd with common interests in social interaction. Web 3.0 is a “read-write-execute” web, individually oriented, highly portable and provides User developed smart applications in terms of the characteristic at front end.</pre
+        >
+        <pre>
+c. In Web 1.0 search engines retrieve macro contents. Search is very fast, but many times results are inaccurate. In Web 2.0 search engines retrieve tags with micro contents. The process of tagging is manual, tedious and covers a small portion of the WWW. In Web 3.0 search engines retrieve micro content texts which were tagged automatically. </pre
+        >
+        <p class="ref">Source: https://www.researchgate.net/publication/262562142_Incremental_Journey_for_World_Wide_Web_Introduced_with_Web_10_to_Recent_Web_50_-_A_Survey_Paper</p>
+        <p>2. Searching “side effects of Advil” in each version of the web:</p>
+        <pre>
+a. Web 1.0: Web 1.0 search engines are fast but unreliable so to get the best result, the user would need to open the website of the specific pharmaceutical company that makes Advil and look for the side effects in their website.</pre
+        >
+        <pre>b. Web 2.0: In Web 2.0 the user can use search engines like Google and search “side effects of Advil” and get pretty good results that are relevant to Advil. </pre>
+        <pre>c. Web 3.0: The use of ML and NLP improves the quality of the results and so the user can search “Advil” and get really relevant results. In addition, the user can even decsribe the medication instead of searching the name and still get relevant results.</pre>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <br />
+      <h1>Contact Me</h1>
+      <!-- inspired by https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail -->
+      <form
+        class="mailForm"
+        action="mailto:noable@post.bgu.ac.il"
+        method="post"
+        enctype="text/plain"
+      >
+        E-mail:<br />
+        <input id="mail" type="text" name="mail" /><br />
+        Comment:<br />
+        <input id="comment" type="text" name="comment" size="50" /><br /><br />
+        <script type="text/javascript">
+          $(document).ready(function () {
+            $("#comment").emojioneArea();
+          });
+        </script>
+        <input class="btn" type="submit" value="Send" />
+        <input class="btn" type="reset" value="Reset" />
+      </form>
+      <br />
+
+      <br />
+      <br />
+    </section>
+
+    <script type="text/javascript">
+      $(function () {
+        $("#nav a").click(function (e) {
+          e.preventDefault();
+          $("html,body").scrollTo(this.hash, this.hash);
+        });
+      });
+    </script>
+    <!-- <script type="text/javascript">
+      $(document).scroll(function() {
+         $('#menu').toggle($(this).scrollTop()>1000)
+      });
+    </script> -->
+  </body>
 </html>
